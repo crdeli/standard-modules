@@ -16,7 +16,7 @@ def handler(c,addr):
         c.send(b"Receive your message")
     c.close()
 
-HOST = '172.60.50.218'
+HOST = '127.0.0.1'
 PORT = 9999
 ADDR = (HOST,PORT)
 s = socket()
